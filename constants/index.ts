@@ -1,14 +1,14 @@
 // NAVIGATION
-export const NAV_LINKS = [
+export const NavLinks = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How HiLink Work?' },
+  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
   { href: '/', key: 'services', label: 'Services' },
   { href: '/', key: 'pricing ', label: 'Pricing ' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
 ];
 
 // CAMP SECTION
-export const PEOPLE_URL = [
+export const PeopleUrl = [
   '/person-1.png',
   '/person-2.png',
   '/person-3.png',
@@ -16,7 +16,7 @@ export const PEOPLE_URL = [
 ];
 
 // FEATURES SECTION
-export const FEATURES = [
+export const Features = [
   {
     id: 1,
     title: 'Real maps can be offline',
@@ -31,7 +31,7 @@ export const FEATURES = [
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from HiLink. That way, there's no more discussion",
+      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
   },
   {
     id: 3,
@@ -52,12 +52,12 @@ export const FEATURES = [
 ];
 
 // FOOTER SECTION
-export const FOOTER_LINKS = [
+export const FooterLinks = [
   {
     id: 1,
     title: 'Learn More',
     links: [
-      'About HiLink',
+      'About Hilink',
       'Press Releases',
       'Environment',
       'Jobs',
@@ -68,11 +68,11 @@ export const FOOTER_LINKS = [
   {
     id: 2,
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'HiLink kinthill'],
+    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
   },
 ];
 
-export const FOOTER_CONTACT_INFO = {
+export const FooterContactInfo = {
   title: 'Contact Us',
   links: [
     {
@@ -88,7 +88,7 @@ export const FOOTER_CONTACT_INFO = {
   ],
 };
 
-export const SOCIALS = {
+export const Socials = {
   title: 'Social',
   links: [
     '/facebook.svg',
