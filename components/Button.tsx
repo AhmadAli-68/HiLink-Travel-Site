@@ -7,10 +7,10 @@ const Button = ({ type, title, icon, variant }: ButtonProps) => {
   return (
     <button
       type={type}
-      className={`flex-center gap-3 rounded-full border ${variant}`}
+      className={`flex-center gap-3 rounded-full border cursor-pointer ${variant}`}
     >
       {icon && <Image src={icon} alt={title} width={24} height={24} />}
-      <label className='bold-16 whitespace-nowrap'>
+      <label className='bold-16 whitespace-nowrap cursor-pointer'>
         {title}
       </label>
     </button>

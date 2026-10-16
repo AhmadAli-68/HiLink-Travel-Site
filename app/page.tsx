@@ -1,8 +1,10 @@
+import { Hero } from '@/components';
+
 const Home = () => {
   return (
-    <div className='regular-64'>
-      Hello
-    </div>
+    <>
+      <Hero />
+    </>
   );
 }
 

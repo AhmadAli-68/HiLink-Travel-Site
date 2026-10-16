@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "",
 };
 
-const RootLayout = ({ children }: LayoutProps<"/">) => {
+export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
@@ -24,5 +24,3 @@ const RootLayout = ({ children }: LayoutProps<"/">) => {
     </html>
   );
 }
-
-export default RootLayout
