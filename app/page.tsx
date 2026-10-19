@@ -1,6 +1,7 @@
 import {
+  Hero,
   Camp,
-  Hero
+  Guide,
 } from '@/components';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <>
       <Hero />
       <Camp />
+      <Guide />
     </>
   );
 }

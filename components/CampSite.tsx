@@ -26,7 +26,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampSitePr
           <span className='flex -space-x-4 overflow-hidden'>
             {PeopleUrl.map((url) => (
               <Image
-              className='inline-block h-10 w-10 rounded-full'
+                className='inline-block h-10 w-10 rounded-full'
                 key={url}
                 src={url}
                 alt='person'
