@@ -20,8 +20,8 @@
   --color-yellow-50: #FEC601;
 
   /* Background images */
-  --background-image-bg-img-1: url('/img-1.png');
-  --background-image-bg-img-2: url('/img-2.png');
+  --background-image-camp-img-1: url('/img-1.png');
+  --background-image-camp-img-2: url('/img-2.png');
 
   --background-image-feature-bg: url('/feature-bg.png');
   --background-image-pattern: url('/pattern.png');

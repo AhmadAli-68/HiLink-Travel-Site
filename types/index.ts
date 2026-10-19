@@ -4,3 +4,10 @@ export interface ButtonProps {
   icon?: string;
   variant: string;
 }
+
+export interface CampSiteProps {
+  backgroundImage: string;
+  title: string;
+  subtitle: string;
+  peopleJoined: string;
+}
