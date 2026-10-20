@@ -4,6 +4,7 @@ import Button from './Button';
 import Hero from './Hero';
 import Camp from './Camp';
 import Guide from './Guide';
+import Features from './Features';
 
 export {
   Navbar,
@@ -11,5 +12,6 @@ export {
   Hero,
   Camp,
   Guide,
+  Features,
   Footer,
 }

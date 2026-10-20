@@ -3,7 +3,7 @@ import "./globals.css";
 import { Footer, Navbar } from '@/components';
 
 export const metadata: Metadata = {
-  title: "HiLink",
+  title: "Hilink",
   description: "",
 };
 

@@ -2,6 +2,7 @@ import {
   Hero,
   Camp,
   Guide,
+  Features
 } from '@/components';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Camp />
       <Guide />
+      <Features />
     </>
   );
 }
