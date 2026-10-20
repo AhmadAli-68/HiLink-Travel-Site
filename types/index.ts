@@ -3,6 +3,7 @@ export interface ButtonProps {
   title: string;
   icon?: string;
   variant: string;
+  full?: boolean;
 }
 
 export interface CampSiteProps {

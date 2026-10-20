@@ -2,7 +2,8 @@ import {
   Hero,
   Camp,
   Guide,
-  Features
+  Features,
+  GetApp
 } from '@/components';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Camp />
       <Guide />
       <Features />
+      <GetApp />
     </>
   );
 }
