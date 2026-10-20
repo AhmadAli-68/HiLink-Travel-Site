@@ -19,3 +19,8 @@ export interface FeatureItemProps {
   variant: string;
   description: string;
 }
+
+export interface FooterColumnProps {
+  title: string;
+  children: React.ReactNode;
+}
